@@ -1,3 +1,22 @@
+# Zflix
+
+- this is a code assessment that I wanted to finish with the basic requirements. Here are the views which I focused more on responsiveness.
+  - Note: Ive made it that if the search does not give any results it will show all the movies. Since there isnt any pagnation and limited number of movies I figured that would be fine. If there was an infinite number of movies then implementation would be different. 
+  - Created a filtering etc on the page to mimic how the backend would possible work, but by no means I would filter results in the frontend. Instead I would use the query I added.
+
+
+Mobile View:
+<img width="349" alt="Screen Shot 2021-07-22 at 12 02 39 PM" src="https://user-images.githubusercontent.com/11494166/126671822-a68085b7-0e28-45b9-a118-f42dcffbe764.png">
+<img width="328" alt="Screen Shot 2021-07-22 at 12 02 55 PM" src="https://user-images.githubusercontent.com/11494166/126671839-6fb088a4-1f31-4673-b14c-59ebcb2ba7eb.png">
+
+Desktop View:
+<img width="568" alt="Screen Shot 2021-07-22 at 12 03 07 PM" src="https://user-images.githubusercontent.com/11494166/126671835-d75730d7-0a82-40f3-9590-cce0ca306102.png">
+<img width="603" alt="Screen Shot 2021-07-22 at 12 03 17 PM" src="https://user-images.githubusercontent.com/11494166/126671834-4f8d2bab-e835-48d7-899b-1997eda16366.png">
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

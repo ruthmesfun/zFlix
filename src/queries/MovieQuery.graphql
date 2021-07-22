@@ -1,0 +1,9 @@
+query MovieQuery($searchInput: searchInput) {
+  total
+  data {
+    mid
+    title
+    thumbnail
+    year
+  }
+}

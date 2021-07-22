@@ -1,0 +1,46 @@
+/* Using css but can update it in sass */
+
+.Result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Result__title {
+  margin-top: 24px;
+}
+
+.Result__title,
+.Result__year {
+  flex: auto;
+  flex-shrink: 3;
+  margin-bottom: 0px;
+}
+
+.Result__thumbnail {
+  flex: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+@media screen and (min-device-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .Result {
+    flex-direction: row;
+    margin-bottom: 24px;
+  }
+
+  .Result__title,
+  .Result__year {
+    flex: auto;
+    flex-shrink: 3;
+    margin-right: 10px;
+  }
+
+  .Result__thumbnail {
+    flex: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}

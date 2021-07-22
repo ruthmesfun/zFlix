@@ -1,0 +1,30 @@
+.SearchBar__label {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar__input {
+  margin-right: 6px;
+  height: 30px;
+  width: 200px;
+}
+
+.SearchBar__submit {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.SearchBar__submit:hover {
+  background-color: #1a1c21;
+}

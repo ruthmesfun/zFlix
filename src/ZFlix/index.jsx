@@ -3,7 +3,6 @@ import React, { useState, useEffect, useQuery } from "react";
 // import MovieQuery from '../queries/MovieQuery.graphl'
 import SearchBar from "../shared/SearchBar";
 import ResultsContainer from "../shared/ResultsContainer";
-import "./ZFlix.css";
 
 const ZFlix = ({ movieData: { data } }) => {
   /* State is initialized with an empty array so that when you first visit the site 

@@ -1,6 +1,9 @@
 # Zflix
 
 - this is a code assessment that I wanted to finish with the basic requirements. Here are the views which I focused more on responsiveness.
+  - Note: Ive made it that if the search does not give any results it will show all the movies. Since there isnt any pagnation and limited number of movies I figured that would be fine. If there was an infinite number of movies then implementation would be different. 
+  - Created a filtering etc on the page to mimic how the backend would possible work, but by no means I would filter results in the frontend. Instead I would use the query I added.
+
 
 Mobile View:
 <img width="349" alt="Screen Shot 2021-07-22 at 12 02 39 PM" src="https://user-images.githubusercontent.com/11494166/126671822-a68085b7-0e28-45b9-a118-f42dcffbe764.png">
